@@ -1,0 +1,34 @@
+{
+  "name": "jwt-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "exports": {
+    "./app.js": "./app.js",
+    "./auth.js": "./auth.js",
+    "./database.js": "./database.js",
+    "./firestore.js": "./firestore.js",
+    "./functions.js": "./functions.js",
+    "./messaging.js": "./messaging.js",
+    "./storage.js": "./storage.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "firebase": "^8.10.0",
+    "firebase-admin": "^12.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.1",
+    "nodemailer": "^6.9.12",
+    "smtp-server": "^3.13.3"
+  }
+}
