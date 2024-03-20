@@ -3,8 +3,8 @@ const AppRouter = express.Router();
 
 const verifyUserToken = require("../middleware/auth.js");
 
-const userController = require("../controllers/UserController.js");
-const addressController = require("../controllers/addressController.js");
+
+// const addressController = require("../controllers/addressController.js");
 //AppRouter.post('/register',userController.register);
 //AppRouter.post('/login',userController.login);
 //AppRouter.get('/getUserById/:id' ,verifyUserToken,userController.getUserById);
